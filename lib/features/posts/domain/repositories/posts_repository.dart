@@ -1,7 +1,7 @@
 import '../entities/post.dart';
 import 'package:dartz/dartz.dart';
 
-import '../../../../core/error/failures.dart';
+import '../../../../core/errors/failures.dart';
 
 abstract class PostsRepository {
   Future<Either<Failure, List<Post>>> getAllPosts();

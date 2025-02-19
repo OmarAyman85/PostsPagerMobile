@@ -1,8 +1,6 @@
 import 'dart:convert';
-
 import 'package:dartz/dartz.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import '../../../../core/errors/exceptions.dart';
 import '../models/post_model.dart';
 

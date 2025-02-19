@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import '../../../../core/errors/exceptions.dart';
 import '../models/post_model.dart';
 import 'package:dartz/dartz.dart';

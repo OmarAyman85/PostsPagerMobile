@@ -27,7 +27,7 @@ class PostRemoteDataSourceImpl implements PostRemoteDataSource {
   @override
   Future<List<PostModel>> getAllPosts() async {
     final response = await client.get(
-      Uri.parse(BASE_URL + "/posts/"), // API endpoint for getting posts
+      Uri.parse("$BASE_URL/posts/"), // API endpoint for getting posts
       headers: {"Content-Type": "application/json"}, // Request headers
     );
 

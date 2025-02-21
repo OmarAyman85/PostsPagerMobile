@@ -16,3 +16,23 @@ class Post extends Equatable {
   @override
   List<Object?> get props => [id, title, body];
 }
+
+// We are using Equatable to simplify the process of comparing instances of the Post class.
+// By extending Equatable and overriding the props getter, we can easily check if two Post
+// objects are equal based on their field values, rather than their references.
+
+// If two instances of the Post class have equal field values, Equatable will consider them
+// to be equal. This means that the equality operator (==) will return true when comparing
+// these instances. This is useful for simplifying comparisons and ensuring that objects
+// with the same data are treated as equal, even if they are different instances in memory.
+
+//If two instances of the Post class are considered equal by Equatable (i.e., their field values are equal), 
+//the equality operator (==) will return true when comparing these instances. This means that:
+//1. They will be treated as the same object in collections that rely on equality, such as sets or maps.
+//2. They can be used interchangeably in logical comparisons.
+//3.It simplifies testing and state management by ensuring that objects with the same data are treated as equal, 
+//even if they are different instances in memory.
+
+
+
+

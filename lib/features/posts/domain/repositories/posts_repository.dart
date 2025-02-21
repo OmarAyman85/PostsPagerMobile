@@ -1,6 +1,5 @@
 import '../entities/post.dart';
 import 'package:dartz/dartz.dart';
-
 import '../../../../core/errors/failures.dart';
 
 abstract class PostsRepository {
